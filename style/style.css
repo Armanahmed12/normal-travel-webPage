@@ -1,0 +1,535 @@
+*{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+/* common style */
+
+#destination-section,#choosingUs-section, #deals-discount-section,#newsLetterSection{
+
+     margin: 2rem;
+}
+
+nav{
+
+     margin: 0 2rem;
+     padding: 1rem 0;
+}
+
+/* Navigation bar */
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar-LogoDiv-container {
+
+    display: flex; align-items: center;justify-content: space-between;
+    width: 100%;
+    padding: 0.2rem 0;
+    z-index: 2;
+    
+}
+
+.navBar-LogoDiv{
+
+    display: flex;
+    align-items: center;
+    gap : 1rem;
+}
+
+nav ul {
+
+    display: flex;
+    gap : 2rem;
+    list-style: none;
+}
+
+nav ul a{
+
+     text-decoration : none;
+     font-size: 1.3rem;
+     color: black;
+}
+
+#menuBtn{
+
+    display: none;
+}
+
+/* Banner Section started */
+
+#banner-section div:last-child{
+
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+}
+
+#banner-section{
+
+      background: linear-gradient(#000000d0, #00000023),url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+      background-size: 100% 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      height: 80vh;
+      position: relative;
+      z-index: -2;
+      padding: 1rem;
+      margin: 0 2rem;
+      border-radius: 0.4rem;
+}
+
+#banner-section h1 {
+
+       text-align: center;
+       font-size: 3.3rem;
+
+}
+#banner-section p{
+
+     text-align: center;
+     margin: 2rem 0;
+}
+
+#banner-section input,#banner-section button , select {
+
+      padding: 0.5rem 2rem;
+      border: none;
+      border-radius: 0.3rem;
+      width: 150px;
+}
+
+#banner-section button {
+
+     background-color:  red;
+     color: white;
+     font-weight: bold;
+     
+}
+
+#input-fields-container {
+
+       background-color: #ffffff68;
+       padding: 1rem;
+       border-radius: 0.5rem;
+}
+
+
+/* Tour popular Section */
+
+#tour-popular-section {
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 1.3rem;
+     margin: 4rem 2rem;
+
+     
+}
+
+#tour-popular-section h2{
+
+     font-size: 1.8rem;
+     margin-bottom: 1rem;
+}
+
+#tour-popular-section img{
+
+     height: 380px;
+     width: 100%;
+}
+#tour-popular-section ul {
+
+     padding: 1rem;
+}
+
+#tour-popular-section button{
+
+      background-color: red;
+      color: white;
+      padding: 0.4rem;
+      border: none;
+      border-radius: 0.3rem;
+      width: 120px;
+      font-weight: bold;
+      margin: 1rem 0;
+}
+
+/* ====== All Destination sections ========= */
+
+#destination-section h2,#destination-section p{
+
+     text-align: center;
+}
+
+#destination-section img{
+
+     width: 100%;
+     height: 300px;
+}
+
+#firstRowDestinationsPics {
+
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 1.2rem;
+}
+
+ /* common for all name */
+#destination-section > div > div {
+
+     position: relative;
+     text-align: center;
+
+}
+ /* common for all name */
+#destination-section > div > div b{
+
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     color: white;
+     font-weight: bold;
+     font-size: 1.5rem;
+     transform: 
+     translate(-50%, -50%);
+    
+}
+      /* second row */
+#secondRowDestinationsPics {
+
+     display: grid;
+     grid-template-columns: 0.7fr 1fr 0.5fr;
+     gap: 1rem;
+     margin: 1rem 0;
+}
+
+#secondRowDestinationsPics img{
+
+      height : 240px;
+}
+
+/* third-row */
+
+#thirdRowDestinationsPics{
+
+     display: grid;
+     grid-template-columns: 0.8fr 1fr;
+     gap: 1rem;
+
+}
+
+/* "Why choose Us" section */
+#choosingUs-section > h2, #choosingUs-section > p {
+
+     text-align: center;
+}
+
+#choosingUs-section > div {
+
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+}
+
+#contactSectionS_lastDiv {
+
+     border-radius: 0.3rem;
+     padding: 1.4rem;
+     display: flex;
+     align-items: baseline;
+     flex-direction: column;
+     width: 45%;
+     margin: 2rem auto;
+     background-color: rgba(47, 0, 255, 0.252);
+}
+     
+
+#choosingUs-section > div > div {
+
+     border-radius: 0.3rem;
+     padding: 1.4rem;
+     
+     
+}
+
+#choosingUs-section > div > div p {
+
+     margin: 1rem 0;
+     text-align: left;
+}
+
+#choosingUs-section > div > div img{
+
+     margin-bottom: 1rem;
+}
+
+/* --------------  deals-discount-section ----------------------- */
+
+#first-tour-div {
+
+      background: url('../Images/Group\ 39.png');
+      background-size: 100% 100%;
+      height: 400px;
+      padding: 5rem;
+      position: relative;
+     
+}
+
+#deals-discount-section > h2, #deals-discount-section > p{
+
+     text-align: center;
+     margin-top: 4rem;
+
+}
+
+#deals-discount-section > div > div:last-child h2 {
+
+     font-size: 1.8rem;
+}
+
+#first-tour-div > div {
+
+     background-color: #ffffffe9;
+     padding: 1rem;
+     border-radius: 0.5rem;
+     width: 50%;
+     position: absolute;
+     right: 50px;
+     top: 55px;
+}
+
+#deals-discount-section button,#seeAllPackagesBtn, #subscribeBtn{
+
+    color: white; padding: 0.5rem 1rem;
+    border: none;
+    background-color: red;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#first-tour-div > div > div:first-child{
+
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+}
+
+ /* -------------------- newsLetterSection ----------------------- */
+
+ #newsLetterSection {
+
+       display: grid;
+       grid-template-columns: 0.8fr 1.1fr;
+       gap: 1rem;
+       align-items: center; 
+    
+    }
+
+ #newsLetterSection img{
+  
+       width: 100%;
+     
+ }
+
+ #newsLetterSection input{
+
+       padding: 0.8rem 0.5rem;
+       width: 100%;
+       margin-bottom: 1rem;
+       border:none;
+       background-color: #80808045;
+       border-radius: 0.3rem;
+ }
+ #newsLetterSection > div:first-child {
+
+      border: 2px solid rgba(251, 0, 0, 0.377);
+      border-radius: 0.3rem;
+      padding: 1rem;
+      height: 323px;
+ }
+
+ #disCountBtnOnATag{
+
+    background-color: red;
+    color: white;
+     position: absolute;
+    right : 7px;
+    bottom: 50px;
+    border-radius: 0.8rem;
+     width: 200px;
+     text-align: center;
+     padding: 1rem 0.2rem;
+     rotate: -30deg;
+ }
+
+  /* ================= Footer =========================== */
+ 
+  footer {
+
+      height: 320px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #eef1f4;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 4rem;
+  }
+
+/*========================= Media Queries for responsive Design ================== */
+
+
+/* Navigation part */
+@media only screen and (max-width:600px){
+    
+    nav{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .navBar-LogoDiv-container{
+
+         background-color: #ffffff;
+         padding: 0.2rem 1rem;
+    }
+     nav ul{
+
+         display: block;
+     }
+     #menuBtn{
+
+        display: block;
+    }
+   nav ul{
+
+         background-color: #eef1f4;
+         width: 100%;
+         text-align: center;
+         position: absolute;
+         top : 54.400px;
+         transition: top 1s;
+
+    }
+   nav ul li{
+        padding: 1rem;
+    }
+  nav  ul li:hover{
+
+        background-color: rgba(0, 76, 255, 0.299);
+        width: 100%;
+   }
+}
+
+/* Banner Part */
+@media only screen and (max-width: 600px){
+
+    #banner-section {
+
+         margin : 0px;
+         border-radius: 0;
+    }
+    #banner-section div:last-child{
+
+          flex-direction : column;
+          width: 100%;
+    }
+    #banner-section input, button , select{
+
+         width: 100%;
+         padding: 1rem;
+    }
+
+}
+
+/* Tour section and "page left-right margin"*/
+@media only screen and (max-width: 600px) {
+    
+    
+    #tour-popular-section{
+
+        flex-direction: column;
+        margin: 2rem 1rem;
+    }
+    #destination-section,#choosingUs-section,#newsLetterSection{
+
+        margin: 1rem;
+   }
+}
+
+/* Destination section */
+@media only screen and (max-width: 600px) {
+    
+     #destination-section > div{
+
+           grid-template-columns: 1fr;
+     }
+}
+
+/* "why choose us" section */
+
+@media only screen and (max-width: 600px) {
+    
+    #choosingUs-section > div{
+
+         flex-direction: column;
+         
+    }
+    #contactSectionS_lastDiv{
+      
+      width: 100%;
+    }
+}
+
+/*  "Deals & Discounts" section */
+
+@media only screen and (max-width: 600px) {
+    
+    #first-tour-div{
+
+         padding: 0.5rem;
+    }
+    #deals-discount-section div > div:first-child{
+
+           display:  block;
+    }
+    #first-tour-div > div{
+
+          width: 90%;
+          left:15px !important;
+          bottom: 15px;
+
+    }
+    #deals-discount-section  button{
+
+          width: 130px;
+          margin: auto;
+    }
+    #deals-discount-section{
+
+         margin: 1rem;
+    }
+}
+
+/*  #newsLetterSection  */
+
+@media only screen and (max-width: 600px){
+    
+    #newsLetterSection {
+
+         grid-template-columns: 1fr;
+    }
+}
